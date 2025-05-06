@@ -1,0 +1,18 @@
+
+system: 'windows'
+# system: 'wsl'
+
+# step1
+year: 2017
+quarter: 2
+subregion_root: "./base/antarctic_region.shp"
+baseline_poly_root:  "./base/Poly17Q1.shp"
+out_img_root: "../"
+
+# step2
+model: UISeg
+# model_root: "F:/text/test/HEDUnet/runs/tyln1uot"
+predict_root: "../Predict"
+
+# step3
+out_shp_root: '../Polygon'
