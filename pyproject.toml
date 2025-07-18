@@ -1,0 +1,29 @@
+[project]
+name = "coastline"
+version = "0.1.0"
+description = "Antarctic coastline extraction"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "geemap==0.34.5",
+    "geopandas==0.14.4",
+    "ipykernel>=6.29.5",
+    "ipython==8.18.0",
+    "jupyter>=1.1.1",
+    "lab>=8.4",
+    "opencv-python>=4.11.0.86",
+    "pyyaml>=6.0.2",
+    "rioxarray>=0.19.0",
+    "scikit-image>=0.25.2",
+    "scipy>=1.15.3",
+    "torch>=2.7.0",
+    "torchaudio>=2.7.0",
+    "torchvision>=0.22.0",
+    "tqdm>=4.67.1",
+]
+
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
+

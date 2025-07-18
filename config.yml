@@ -1,18 +1,19 @@
-
-system: 'windows'
-# system: 'wsl'
-
 # step1
-year: 2017
-quarter: 2
+year: 2025
+quarter: 1
+baseline_poly_root:  "./base/Poly24Q4.shp"
 subregion_root: "./base/antarctic_region.shp"
-baseline_poly_root:  "./base/Poly17Q1.shp"
 out_img_root: "../"
 
 # step2
+# To use a trained model, specify the model path below and update the corresponding code in step2.py
+# model_root: "F:/text/test/HEDUnet/runs/tyln1uot"  
 model: UISeg
-# model_root: "F:/text/test/HEDUnet/runs/tyln1uot"
 predict_root: "../Predict"
 
 # step3
 out_shp_root: '../Polygon'
+
+# Optional: if you want to exclude certain regions from processing, specify the path to the vector data file below
+# fixed_region_root: "./base/fixed_region.shp"
+
