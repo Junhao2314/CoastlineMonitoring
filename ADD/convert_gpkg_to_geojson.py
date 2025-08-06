@@ -110,7 +110,7 @@ def main():
     convert_gpkg_to_geojson(
         input_dir="temp",
         output_dir="ADD", 
-        simplify_tolerance=100  # 默认简化40米
+        simplify_tolerance=10  # 默认简化10米
     )
 
 if __name__ == "__main__":
