@@ -41,3 +41,7 @@ https://github.com/CVEO/Unsupervised-OBIC-Pytorch
 Asako Kanezaki. **Unsupervised Image Segmentation by Backpropagation.** *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2018. ([pdf](https://kanezaki.github.io/pytorch-unsupervised-segmentation/ICASSP2018_kanezaki.pdf))
 
 Chen G, He C, Wang T, et al. **A superpixel-guided unsupervised fast semantic segmentation method of remote sensing images.** *IEEE Geoscience and Remote Sensing Letters*, 2022, 19: 1-5. ([online](https://ieeexplore.ieee.org/abstract/document/9854897))
+
+## Acknowledgement
+
+Thanks to Liu Lin for web testing.
